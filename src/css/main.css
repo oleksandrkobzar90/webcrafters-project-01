@@ -10,13 +10,13 @@
 @import url('./container.css');
 
 /* Sections style */
+@import url('./navbar.css');
 @import url('./header.css');
-@import url('./hero-top.css');
-@import url('./hero-promo.css');
-@import url('./advantages.css');
+@import url('./layout.css');
+@import url('./feature.css');
 @import url('./products.css');
 @import url('./gallery.css');
 @import url('./reviews.css');
-@import url('./cta-form.css');
+@import url('./contact.css');
 @import url('./footer.css');
 @import url('./mobile-menu.css');

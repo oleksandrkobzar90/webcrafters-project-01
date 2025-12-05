@@ -1,0 +1,141 @@
+.header-section {
+  background-color: var(--color-emerald-light);
+}
+
+.header-wrapper {
+  padding-right: 12px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    padding-right: 12px;
+    padding-left: 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-wrapper {
+    max-width: 1440px;
+    padding: 0 64px;
+  }
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.logo {
+  padding: 14px 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .logo {
+    margin-right: 175px;
+  }
+}
+
+.list-link {
+  display: none;
+}
+
+.contacts-list {
+  display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .list-link {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .link,
+  .mail-tel {
+    font-size: 16px;
+    display: block;
+    padding: 23px 0;
+    position: relative;
+    overflow: hidden;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .link::after,
+  .mail-tel::after {
+    position: absolute;
+    content: '';
+    border-radius: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--text-main);
+    left: 0;
+    bottom: 7px;
+    transform: translateX(-100%);
+  }
+
+  .link:hover::after,
+  .link:focus::after,
+  .link.active-page::after,
+  .mail-tel:hover::after,
+  .mail-tel:focus::after,
+  .mail-tel.active-page::after {
+    background-color: var(--text-main);
+    transform: translateX(0);
+  }
+
+  .link.active-page::after,
+  .mail-tel.active-page::after {
+    background-color: var(--color-emerald);
+  }
+
+  .link.active-page::after,
+  .mail-tel.active-page::after {
+    transform: translateX(0);
+  }
+
+  .link::after,
+  .mail-tel::after {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .active-page {
+    color: var(--color-emerald);
+  }
+
+  .contacts {
+    font-size: 16px;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+  }
+}
+
+.burger-btn {
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-burger {
+  display: block;
+  fill: var(--text-main);
+}
+
+@media only screen and (min-width: 1440px) {
+  .burger-btn {
+    display: none;
+  }
+}

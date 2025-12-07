@@ -1,0 +1,119 @@
+.hero-top {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var(--color-emerald-lightest);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-top {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+}
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text-link {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-text-link {
+    gap: 32px;
+  }
+}
+
+.hero-title {
+  font-family: var(--second-family);
+  max-width: 288px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--color-neutral-darkest);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 56px;
+    max-width: 640px;
+  }
+}
+
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-neutral-darkest);
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+.hero-link {
+  display: block;
+  text-align: center;
+  width: 100%;
+  border: 1px solid var(--color-neutral-darkest);
+  border-radius: 6px;
+  padding: 12px 24px;
+  max-width: 288px;
+  height: 50px;
+  background-color: var(--color-neutral-darkest);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-white);
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-link {
+    max-width: 148px;
+    margin-bottom: 0;
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+
+.hero-image {
+  border-radius: 40px;
+}

@@ -2,7 +2,7 @@
     position: relative;
     background:
         linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-        url("../images/mobile-feature@1x.jpg");
+        url("/images/mobile-feature@1x.webp");
     color: #fff;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
     .natural-section {
     background:
         linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-            url("../images/mobile-feature@2x.jpg");
+            url("/images/mobile-feature@2x.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
     .natural-section {
     background:
                 linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-                url("../images/tablet-feature@2x.jpg");
+                url("/images/tablet-feature@2x.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
     .natural-section {
     background:
             linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 10%),
-            url("../images/desktop-feature@2x.jpg");
+            url("/images/desktop-feature@2x.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@
 .natural-section {
     background:
            linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-            url("../images/tablet-feature@1x.jpg");
+            url("/images/tablet-feature@1x.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@
 .natural-section {
     background:
                 linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 60%),
-                url("../images/desktop-feature@1x.jpg");
+                url("/images/desktop-feature@1x.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -252,10 +252,11 @@
         margin-bottom: 78px;
     }
 
+
     .form-btn:hover,
     .form-btn:focus {
         background-color: var(--color-neutral-darkest);
-        border-color: 1px solid var(--color-neutral-darkest);
+        border: 1px solid var(--color-neutral-darkest);
         opacity: 0.5;
         outline: none;
     }
